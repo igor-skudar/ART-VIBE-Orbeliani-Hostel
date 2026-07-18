@@ -39,6 +39,10 @@
   box-sizing: border-box;
 }
 
+  html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-main);
   font-size: var(--fs-body); 
@@ -143,8 +147,8 @@ h1 {
   width: 100%;
 } 
 
-#about, #amenities {
-  padding: var(--space-5) var(--space-3) 0 var(--space-3);
+#about, #amenities, #contact {
+  padding: var(--space-5) var(--space-3);
   background: var(--section-bg-color);
 }
 
@@ -152,6 +156,7 @@ h2 {
   font-size: var(--fs-section-title);
   font-weight: 600;
   margin-bottom: var(--space-2);
+  line-height: 1.3;
 }
 
 section > p {
@@ -172,7 +177,7 @@ h2 span {
 
 #amenities-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: var(--space-2);
 }
 
@@ -199,4 +204,73 @@ h2 span {
 .amenity-item span { 
   font-size: var(--fs-small); font-weight: 500; 
   line-height: 1.3; 
+}
+
+.contact-actions {
+  display: grid;
+  gap: var(--space-2);
+  margin: var(--space-3) 0;
+}
+
+.contact-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-1);
+
+  width: 100%;
+  padding: var(--space-2);
+
+  background: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+
+  font-weight: 600;
+  font-size: var(--fs-button);
+
+  transition: transform 0.2s ease,
+              box-shadow 0.2s ease,
+              background-color 0.2s ease;
+}
+
+.contact-btn img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.telegram-btn img {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.whatsapp-btn {
+  background: #25D366;
+  color: var(--light-text-color);
+}
+
+.telegram-btn {
+  background: #0088CC;
+  color: var(--light-text-color);
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.contact-info {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: var(--space-3);
+}
+
+.contact-info p {
+  color: var(--secondary-text-color);
+  line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+  .contact-actions {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
