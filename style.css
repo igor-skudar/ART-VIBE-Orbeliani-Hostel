@@ -37,7 +37,7 @@
   box-sizing: border-box;
 }
 
-  html {
+html {
   scroll-behavior: smooth;
 }
 
@@ -64,6 +64,7 @@ a {
 #hero {
   background-image: linear-gradient(to bottom, rgba(0,0,0,0) 65%, rgba(0,0,0,0.80) 85%), url('Assets/balcony.jpg');
   height: 100vh;
+  height: 100dvh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
