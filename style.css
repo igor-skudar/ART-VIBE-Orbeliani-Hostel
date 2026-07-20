@@ -20,13 +20,11 @@
   --fs-body: 1rem; 
   --fs-small: 0.875rem;
 
-  --space-0: 0.25rem;
   --space-1: 0.5rem;
   --space-2: 1rem;
   --space-25: 1.25rem;
   --space-3: 1.5rem; 
   --space-4: 3rem;
-  --space-5: 3rem; 
 
   --radius-sm: 0.75rem;
   --radius-md: 1rem; 
@@ -64,7 +62,7 @@ a {
 }
 
 #hero {
-  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 70%, rgba(0,0,0,0.80) 85%), url('Assets/balcony.jpg');
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0) 65%, rgba(0,0,0,0.80) 85%), url('Assets/balcony.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -87,11 +85,11 @@ a {
 }
 
 #flag {
-  width: 2rem;
+  width: 24px;
 }
 
 #language-btn > span {
-  font-size: var(--fs-subtitle);
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -121,7 +119,7 @@ h1 {
 
 #small-title span {
   border-bottom: 3px solid var(--primary-color);
-  padding-bottom: var(--space-1);
+  padding-bottom: 0.1rem;
 }
 
 #hero-description {
@@ -148,8 +146,11 @@ h1 {
 } 
 
 section:not(#hero) {
-  padding: var(--space-5) var(--space-3);
+  padding:  var(--space-3) var(--space-3);
   background: var(--section-bg-color);
+}
+#about {
+  padding-top: var(--space-4);
 }
 
 h2 {
@@ -172,7 +173,7 @@ section > img {
 
 h2 span {
   border-bottom: 3px solid var(--primary-color);
-  padding-bottom: var(--space-0);
+  padding-bottom: 0.1rem;
 }
 
 #amenities-container {
