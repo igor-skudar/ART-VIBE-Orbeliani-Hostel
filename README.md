@@ -21,7 +21,6 @@ A responsive one-page website built for **ART VIBE Orbeliani Hostel**, a cozy ho
 
 - HTML5
 - CSS3
-- JavaScript
 
 ## Project Status
 
