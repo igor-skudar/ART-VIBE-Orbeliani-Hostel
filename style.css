@@ -2,11 +2,12 @@
 
 :root {
   --primary-color: #FF6A00;
+  --light-primary-color: #fef3f0;
   --bg-color: #FFFFFF;
   --section-bg-color: #F8FAFC;
   --text-color: #111;
   --light-text-color: #FFF;
-  --secondary-text-color: #444;
+  --secondary-text-color: #333;
   --secondary-light-text-color: #EEE;
   --border-color: #E5E7EB;
 
@@ -20,7 +21,9 @@
   --fs-body: 1rem; 
   --fs-small: 0.875rem;
 
+  --space-0: 0.35rem;
   --space-1: 0.5rem;
+  --space-15: 0.75rem;
   --space-2: 1rem;
   --space-25: 1.25rem;
   --space-3: 1.5rem; 
@@ -104,8 +107,8 @@ a {
 h1 {
   display: flex;
   flex-direction: column;
-  line-height: 1.2;
-  margin-bottom: var(--space-3);
+  line-height: 1.1;
+  margin-bottom: var(--space-2);
 }
 
 #big-title {
@@ -127,7 +130,7 @@ h1 {
   font-size: var(--fs-body);
   color: var(--secondary-light-text-color);
   font-weight: 400;
-  margin-bottom: var(--space-3);
+  margin-bottom: 2rem;
 }
 
 #book-btn {
@@ -147,17 +150,17 @@ h1 {
 } 
 
 section:not(#hero) {
-  padding:  var(--space-3) var(--space-3);
+  padding:  var(--space-4) var(--space-3);
   background: var(--section-bg-color);
 }
 #about {
-  padding-top: var(--space-4);
+  padding-top: calc(var(--space-4) * 2);;
 }
 
 h2 {
   font-size: var(--fs-section-title);
   font-weight: 600;
-  margin-bottom: var(--space-2);
+  margin-bottom: var(--space-3);
   line-height: 1.3;
 }
 
@@ -175,6 +178,99 @@ section > img {
 h2 span {
   border-bottom: 3px solid var(--primary-color);
   padding-bottom: 0.1rem;
+}
+
+.room-card {
+  margin-top: var(--space-4);
+}
+
+.room-header {
+  margin-bottom: var(--space-2);
+}
+
+.room-header h3 {
+  font-size: var(--fs-subtitle);
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: var(--space-25);
+}
+
+.room-price {
+  display: flex;
+  align-items: center;
+  background: var(--light-primary-color);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-md);
+  margin-bottom: var(--space-1);
+  line-height: 1;
+}
+
+.price-prefix,
+.price-period {
+  font-size: var(--fs-body);;
+}
+
+.price-prefix {
+  margin-right: var(--space-2);
+}
+
+.price {
+  color: var(--primary-color);
+  font-size: var(--fs-section-title);
+  font-weight: 700;
+  margin-right: var(--space-0);
+}
+
+.currency {
+  color: var(--primary-color);
+  font-size: var(--fs-body);
+  font-weight: 600;
+  align-self: end;
+  margin-right: var(--space-3);
+}
+
+.price-period {
+  border-left: 1px solid black;
+  padding-left: var(--space-3);
+  margin-left: auto;
+  margin-right: var(--space-2);
+}
+
+.room-images {
+  display: flex;
+  gap: var(--space-2);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.room-images::-webkit-scrollbar {
+  display: none;
+}
+
+.room-images > img {
+  border-radius: var(--radius-md);
+  scroll-snap-align: start;
+  aspect-ratio: 3 / 3.5;
+  object-fit: cover;
+}
+
+.image-dots {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-1);
+  margin-top: var(--space-2);
+}
+
+.dot {
+  width: 0.5rem;
+  height: 0.5rem;
+
+  border-radius: 50%;
+  background-color: var(--border-color);
+}
+
+.dot.active {
+  background-color: var(--primary-color);
 }
 
 #amenities-container {
