@@ -252,6 +252,7 @@ h2 span {
   scroll-snap-align: start;
   aspect-ratio: 3 / 3.5;
   object-fit: cover;
+  flex: 0 0 100%;
 }
 
 .image-dots {
