@@ -1,3 +1,18 @@
+import { setLang } from "./language.js";
+
+let currentLang = "en";
+setLang(currentLang);
+
+const languageButton = document.querySelector("#language-btn");
+languageButton.addEventListener("click", (event) => {
+  event.preventDefault();
+  currentLang = currentLang === "en" ? "ru" : "en";
+  setLang(currentLang);
+});
+
+
+// image dots for rooms section
+
 const roomImages = document.querySelectorAll(".room-images");
 
 roomImages.forEach((container) => {

@@ -172,7 +172,6 @@ section > p {
 section > img {
   margin-top: var(--space-3);
   border-radius: var(--radius-md);
-  max-height: 280px;
 }
 
 h2 span {
