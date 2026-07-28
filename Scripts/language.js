@@ -70,7 +70,7 @@ export const translations = {
 
     meta: {
       title: "ART VIBE Orbeliani Hostel | Hostel in Central Tbilisi",
-      description: "Stay at ART VIBE Orbeliani Hostel in the heart of Tbilisi. Cozy rooms, free WiFi, shared kitchen, terrace, and easy direct booking without intermediaries!"
+      description: "Stay at ART VIBE Orbeliani Hostel in the heart of Tbilisi. Cozy private rooms and dorms, free WiFi, shared kitchen, terrace, and direct booking without intermediaries!"
     }
   },
 
@@ -190,4 +190,4 @@ export function setLang(lang) {
       language.alt[key]
     );
   });
-}
+};
