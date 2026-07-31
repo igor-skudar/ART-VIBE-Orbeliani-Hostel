@@ -78,7 +78,7 @@ export const translations = {
     text: {
       // hero section
       langBtn: "EN",
-      heroDescription: "Остановись в самом сердце Тбилиси",
+      heroDescription: "Остановитесь в сердце Тбилиси",
       bookBtn: "Забронировать",
 
       // about section
