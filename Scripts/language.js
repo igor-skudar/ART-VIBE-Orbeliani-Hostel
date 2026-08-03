@@ -7,7 +7,7 @@ export const translations = {
       bookBtn: "Book Your Stay",
 
       // about section
-      aboutTitle: "<span>A</span>bout Us",
+      aboutTitle: "<span>A</span>bout",
       firstAboutParagraph: "More than just a place to sleep, ART VIBE Orbeliani Hostel is a space where travelers can relax, meet new people, and experience the unique atmosphere of old Tbilisi.",
       secondAboutParagraph: "Enjoy cozy indoor lounges, a charming terrace overlooking historic buildings, and a welcoming environment designed for both adventure and comfort.",
 

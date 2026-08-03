@@ -62,25 +62,32 @@
     </section>
 
     <section id="about">
-      <h2 data-i18n="aboutTitle">
-        <span>A</span>bout Us
-      </h2>
-      <p data-i18n="firstAboutParagraph">
-        More than just a place to sleep, ART VIBE Orbeliani Hostel is a space where travelers can relax, meet new people, and experience the unique atmosphere of old Tbilisi.
-      </p>
-      <p data-i18n="secondAboutParagraph">
-        Enjoy cozy indoor lounges, a charming terrace overlooking historic buildings, and a welcoming environment designed for both adventure and comfort.
-      </p>
-      <img src="Assets/about-image.webp" 
-        data-i18n-alt="aboutImage"
-        alt="Terrace overlooking historic buildings in Tbilisi" id="about-image
-      ">
+      <div class="container">
+        <div class="section-content">
+          <h2 data-i18n="aboutTitle">
+            <span>A</span>bout
+          </h2>
+          <p data-i18n="firstAboutParagraph">
+            More than just a place to sleep, ART VIBE Orbeliani Hostel is a space where travelers can relax, meet new people, and experience the unique atmosphere of old Tbilisi.
+          </p>
+          <p data-i18n="secondAboutParagraph">
+            Enjoy cozy indoor lounges, a charming terrace overlooking historic buildings, and a welcoming environment designed for both adventure and comfort.
+          </p>
+        </div>
+        <div class="section-media">
+          <img src="Assets/about-image.webp" 
+            data-i18n-alt="aboutImage"
+            alt="Terrace overlooking historic buildings in Tbilisi" id="about-image
+          ">
+        </div>
+      </div>
     </section>
 
     <section id="rooms">
-      <h2 data-i18n="roomsTitle"><span>F</span>ind Your Space</h2>
-      <p data-i18n="roomsParagraph">From private rooms to shared dorms, choose the space that fits your travel style and budget.</p>
-      <div class="room-card">
+      <div class="container">
+        <h2 data-i18n="roomsTitle"><span>F</span>ind Your Space</h2>
+        <p data-i18n="roomsParagraph">From private rooms to shared dorms, choose the space that fits your travel style and budget.</p>
+        <div class="room-card">
         <div class="room-header">
           <h3 data-i18n="vip3Title">Private Double Room</h3>
 
@@ -180,138 +187,145 @@
         </div>
       </div>
 
-      <div class="room-card">
-        <div class="room-header">
-          <h3 data-i18n="femaleDormTitle">6-Bed Female Dormitory</h3>
+        <div class="room-card">
+          <div class="room-header">
+            <h3 data-i18n="femaleDormTitle">6-Bed Female Dormitory</h3>
 
-          <div class="room-price">
-            <span class="price-prefix" data-i18n="pricePrefix">From</span>
-            <span class="price">25</span>
-            <span class="currency">GEL</span>
-            <span class="price-period" data-i18n="pricePeriod">per night</span>
+            <div class="room-price">
+              <span class="price-prefix" data-i18n="pricePrefix">From</span>
+              <span class="price">25</span>
+              <span class="currency">GEL</span>
+              <span class="price-period" data-i18n="pricePeriod">per night</span>
+            </div>
           </div>
-        </div>
 
-        <div class="room-images">
-          <img src="Assets/Female-dorm/female-dorm.jpg" alt="6-bed female dormitory room" loading="lazy">
-        </div>
-        <div class="image-dots" aria-hidden="true">
-          <span class="dot active"></span>
+          <div class="room-images">
+            <img src="Assets/Female-dorm/female-dorm.jpg" alt="6-bed female dormitory room" loading="lazy">
+          </div>
+          <div class="image-dots" aria-hidden="true">
+            <span class="dot active"></span>
+          </div>
         </div>
       </div>
     </section>
 
     <section id="amenities">
-      <h2 data-i18n="amenitiesTitle"><span>A</span>menities</h2>
-      <p data-i18n="amenitiesParagraph">Everything you need for a comfortable and memorable stay.</p>
-      <ul id="amenities-container">
-        <li class="amenity-item">
-          <img src="Assets/Icons/wifi.svg" alt="" aria-hidden="true">
-          <span data-i18n="freeWiFi">Free WiFi</span>
-        </li>
-        <li class="amenity-item">
-          <img src="Assets/Icons/kitchen.svg" alt="" aria-hidden="true">
-          <span data-i18n="sharedKitchen">Shared kitchen</span>
-        </li>
-        <li class="amenity-item">
-          <img src="Assets/Icons/laundry.svg" alt="" aria-hidden="true">
-          <span data-i18n="laundry">Laundry</span>
-        </li>
-        <li class="amenity-item">
-          <img src="Assets/Icons/balcony.svg" alt="" aria-hidden="true">
-          <span data-i18n="balcony">Balcony</span>
-        </li>
-        <li class="amenity-item">
-          <img src="Assets/Icons/ac.svg" alt="" aria-hidden="true">
-          <span data-i18n="airConditioning">Air conditioning</span>
-        </li>
-        <li class="amenity-item">
-          <img src="Assets/Icons/heating.svg" alt="" aria-hidden="true">
-          <span data-i18n="heating">Heating</span>
-        </li>
-        <li class="amenity-item">
-          <img src="Assets/Icons/location.svg" alt="" aria-hidden="true">
-          <span data-i18n="centralLocation">Central location</span>
-        </li>
-        <li class="amenity-item">
-          <img src="Assets/Icons/movie.svg" alt="" aria-hidden="true">
-          <span data-i18n="movieNights">Movie nights</span>
-        </li>
-        <li class="amenity-item">
-          <img src="Assets/Icons/locker.svg" alt="" aria-hidden="true">
-          <span data-i18n="lockers">Lockers</span>
-        </li>
-        <li class="amenity-item">
-          <img src="Assets/Icons/languages.svg" alt="" aria-hidden="true">
-          <span data-i18n="englishRussianStaff">English &amp; Russian staff</span>
-        </li>
-      </ul>
-      <img src="Assets/Basement/projector.webp" 
-        data-i18n-alt="amenitiesImage"
-        alt="Movie night in the cozy basement" 
-        id="amenities-image" 
-        loading="lazy">
+      <div class="container">
+        <h2 data-i18n="amenitiesTitle"><span>A</span>menities</h2>
+        <p data-i18n="amenitiesParagraph">Everything you need for a comfortable and memorable stay.</p>
+        <ul id="amenities-container">
+          <li class="amenity-item">
+            <img src="Assets/Icons/wifi.svg" alt="" aria-hidden="true">
+            <span data-i18n="freeWiFi">Free WiFi</span>
+          </li>
+          <li class="amenity-item">
+            <img src="Assets/Icons/kitchen.svg" alt="" aria-hidden="true">
+            <span data-i18n="sharedKitchen">Shared kitchen</span>
+          </li>
+          <li class="amenity-item">
+            <img src="Assets/Icons/laundry.svg" alt="" aria-hidden="true">
+            <span data-i18n="laundry">Laundry</span>
+          </li>
+          <li class="amenity-item">
+            <img src="Assets/Icons/balcony.svg" alt="" aria-hidden="true">
+            <span data-i18n="balcony">Balcony</span>
+          </li>
+          <li class="amenity-item">
+            <img src="Assets/Icons/ac.svg" alt="" aria-hidden="true">
+            <span data-i18n="airConditioning">Air conditioning</span>
+          </li>
+          <li class="amenity-item">
+            <img src="Assets/Icons/heating.svg" alt="" aria-hidden="true">
+            <span data-i18n="heating">Heating</span>
+          </li>
+          <li class="amenity-item">
+            <img src="Assets/Icons/location.svg" alt="" aria-hidden="true">
+            <span data-i18n="centralLocation">Central location</span>
+          </li>
+          <li class="amenity-item">
+            <img src="Assets/Icons/movie.svg" alt="" aria-hidden="true">
+            <span data-i18n="movieNights">Movie nights</span>
+          </li>
+          <li class="amenity-item">
+            <img src="Assets/Icons/locker.svg" alt="" aria-hidden="true">
+            <span data-i18n="lockers">Lockers</span>
+          </li>
+          <li class="amenity-item">
+            <img src="Assets/Icons/languages.svg" alt="" aria-hidden="true">
+            <span data-i18n="englishRussianStaff">English &amp; Russian staff</span>
+          </li>
+        </ul>
+        <img src="Assets/Basement/projector.webp" 
+          data-i18n-alt="amenitiesImage"
+          alt="Movie night in the cozy basement" 
+          id="amenities-image" 
+          loading="lazy">
+      </div>
     </section>
 
     <section id="location">
-      <h2 data-i18n="locationTitle"><span>L</span>ocation</h2>
-      <p data-i18n="locationParagraph">Find us in the heart of Tbilisi, just a short walk from the city's main attractions.</p>
-      <iframe 
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2979.0069680717093!2d44.80125047466768!3d41.69878527662424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440d5fcd82bead%3A0xa5d1a25f08f03c2b!2sART%20VIBE%20Orbeliani%20Hostel!5e0!3m2!1sen!2sge!4v1784558521111!5m2!1sen!2sge"
-        width="600"
-        height="450"
-        style="border:0;"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="strict-origin-when-cross-origin">
-      </iframe>
-      <p id="location-address" data-i18n="locationAddress">29 Vakhtang Orbeliani St, Tbilisi 0105</p>
+      <div class="container">
+        <h2 data-i18n="locationTitle"><span>L</span>ocation</h2>
+        <p data-i18n="locationParagraph">Find us in the heart of Tbilisi, just a short walk from the city's main attractions.</p>
+        <iframe 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2979.0069680717093!2d44.80125047466768!3d41.69878527662424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440d5fcd82bead%3A0xa5d1a25f08f03c2b!2sART%20VIBE%20Orbeliani%20Hostel!5e0!3m2!1sen!2sge!4v1784558521111!5m2!1sen!2sge"
+          width="600"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+        <p id="location-address" data-i18n="locationAddress">29 Vakhtang Orbeliani St, Tbilisi 0105</p>
+      </div>
     </section>
 
     <section id="contact">
-      <h2 data-i18n="contactTitle"><span>B</span>ook your stay</h2>
-      <p data-i18n="contactParagraph">Have a question or want to book directly? Get in touch with us.</p>
+      <div class="container">
+        <h2 data-i18n="contactTitle"><span>B</span>ook your stay</h2>
+        <p data-i18n="contactParagraph">Have a question or want to book directly? Get in touch with us.</p>
 
-      <div class="contact-actions">
-        <a 
-          href="https://wa.me/995501110957" 
-          class="contact-btn whatsapp-btn" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          data-i18n-aria-label="whatsappBtn"
-          aria-label="Contact us on WhatsApp (opens in a new tab)"
-        >
-          <img src="Assets/Icons/whatsapp.svg" alt="" aria-hidden="true">
-          <span>WhatsApp</span>
-        </a>
+        <div class="contact-actions">
+          <a 
+            href="https://wa.me/995501110957" 
+            class="contact-btn whatsapp-btn" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            data-i18n-aria-label="whatsappBtn"
+            aria-label="Contact us on WhatsApp (opens in a new tab)"
+          >
+            <img src="Assets/Icons/whatsapp.svg" alt="" aria-hidden="true">
+            <span>WhatsApp</span>
+          </a>
 
-        <a 
-          href="https://t.me/ART_VIBE_Orbeliani_Hostel" 
-          class="contact-btn telegram-btn" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          data-i18n-aria-label="telegramBtn"
-          aria-label="Contact us on Telegram (opens in a new tab)"
-        >
-          <img src="Assets/Icons/telegram.svg" alt="" aria-hidden="true">
-          <span>Telegram</span>
-        </a>
+          <a 
+            href="https://t.me/ART_VIBE_Orbeliani_Hostel" 
+            class="contact-btn telegram-btn" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            data-i18n-aria-label="telegramBtn"
+            aria-label="Contact us on Telegram (opens in a new tab)"
+          >
+            <img src="Assets/Icons/telegram.svg" alt="" aria-hidden="true">
+            <span>Telegram</span>
+          </a>
 
-        <a 
-          href="mailto:art.vibe.orbeliani@gmail.com" 
-          class="contact-btn" 
-          data-i18n-aria-label="emailBtn"
-          aria-label="Send us an email (opens in a new tab)"
-        >
-          <img src="Assets/Icons/email.svg" alt="" aria-hidden="true">
-          <span>Email</span>
-        </a>
-      </div>
+          <a 
+            href="mailto:art.vibe.orbeliani@gmail.com" 
+            class="contact-btn" 
+            data-i18n-aria-label="emailBtn"
+            aria-label="Send us an email (opens in a new tab)"
+          >
+            <img src="Assets/Icons/email.svg" alt="" aria-hidden="true">
+            <span>Email</span>
+          </a>
+        </div>
 
-      <div class="contact-info">
-        <p><strong>WhatsApp:</strong> +995 501 11 09 57</p>
-        <p><strong>Telegram:</strong> @ART_VIBE_Orbeliani_Hostel</p>
-        <p><strong>Email:</strong> art.vibe.orbeliani@gmail.com</p>
+        <div class="contact-info">
+          <p><strong>WhatsApp:</strong> +995 501 11 09 57</p>
+          <p><strong>Telegram:</strong> @ART_VIBE_Orbeliani_Hostel</p>
+          <p><strong>Email:</strong> art.vibe.orbeliani@gmail.com</p>
+        </div>
       </div>
     </section>
   </main>
