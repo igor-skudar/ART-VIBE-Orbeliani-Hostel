@@ -18,10 +18,35 @@ export const translations = {
       pricePeriod: "per night",
       vip3Title: "Private Double Room",
       vip5Title: "Private 4-Bed Room",
-      dorm4Title: "4-Bed Dormitory",
-      dorm6Title: "6-Bed Dormitory", 
-      femaleDormTitle: "6-Bed Female Dormitory",
+      dormTitle: "4-Bed Dormitory",
+      femaleDormTitle: "Female Dormitory",
 
+      vip3Feature1: "Shared bathroom",
+      vip3Feature2: "Double bed",
+      vip3Feature3: "Air conditioning",
+      vip3Feature4: "Free WiFi",
+      vip3Feature5: "Shared kitchen",
+
+      vip5Feature1: "Sleeps 4",
+      vip5Feature2: "Air conditioning",
+      vip5Feature3: "Private bathroom",
+      vip5Feature4: "Free WiFi",
+      vip5Feature5: "Shared kitchen",
+
+      dormFeature1: "Shared kitchen",
+      dormFeature2: "Air conditioning",
+      dormFeature3: "Free WiFi",
+      dormFeature4: "Lockers",
+      dormFeature5: "Shared bathroom",
+
+      femaleDormFeature1: "Shared bathroom",
+      femaleDormFeature2: "Shared kitchen",
+      femaleDormFeature3: "Air conditioning",
+      femaleDormFeature4: "Free WiFi",
+      femaleDormFeature5: "Lockers",
+      
+      reserveBtn: "Reserve Now",
+      
       // amenities section
       amenitiesTitle: "<span>A</span>menities",
       amenitiesParagraph: "Everything you need for a comfortable and memorable stay.",
@@ -91,11 +116,36 @@ export const translations = {
       roomsParagraph: "От приватных комнат до общих спален, выберите место, которое подходит вашему стилю путешествий и бюджету.",
       pricePrefix: "От",
       pricePeriod: "за ночь",
-      vip3Title: "Приватная комната",
+      vip3Title: "Приватная комната на двоих",
       vip5Title: "Приватная комната на четверых",
-      dorm4Title: "Общая комната на четверых",
-      dorm6Title: "Общая комната на шестерых", 
-      femaleDormTitle: "Женская комната на шестерых",
+      dormTitle: "Общая комната",
+      femaleDormTitle: "Женская комната",
+
+      vip3Feature1: "Общая ванная",
+      vip3Feature2: "Двуспальная кровать",
+      vip3Feature3: "Кондиционер",
+      vip3Feature4: "Бесплатный Wi-Fi",
+      vip3Feature5: "Общая кухня",
+
+      vip5Feature1: "4 места",
+      vip5Feature2: "Кондиционер",
+      vip5Feature3: "Приватная ванная",
+      vip5Feature4: "Бесплатный Wi-Fi",
+      vip5Feature5: "Общая кухня",
+
+      dormFeature1: "Общая кухня",
+      dormFeature2: "Кондиционер",
+      dormFeature3: "Бесплатный Wi-Fi",
+      dormFeature4: "Шкафчики",
+      dormFeature5: "Общая ванная",
+
+      femaleDormFeature1: "Общая ванная",
+      femaleDormFeature2: "Общая кухня",
+      femaleDormFeature3: "Кондиционер",
+      femaleDormFeature4: "Бесплатный Wi-Fi",
+      femaleDormFeature5: "Шкафчики",
+
+      reserveBtn: "Забронировать",
 
       // amenities section
       amenitiesTitle: "<span>У</span>добства",

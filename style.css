@@ -334,6 +334,11 @@ section:not(#hero) {
   border-radius: var(--radius-md);
 }
 
+.container> img {
+  margin-top: var(--space-3);
+  border-radius: var(--radius-md);
+}
+
 h2 {
   font-size: var(--fs-section-title);
   font-weight: 600;
@@ -406,6 +411,9 @@ h2 span {
   margin-right: var(--space-2);
 }
 
+.room-features, .reserve-btn {
+  display: none;
+}
 .room-images {
   display: flex;
   gap: var(--space-2);
@@ -442,6 +450,30 @@ h2 span {
 
 .dot.active {
   background-color: var(--primary-color);
+}
+
+@media (min-width: 450px) {
+  .room-images > img {
+    aspect-ratio: 3 / 3.25;
+  }
+}
+
+@media (min-width: 500px) {
+  .room-images > img {
+    aspect-ratio: 3 / 3;
+  }
+}
+
+@media (min-width: 600px) {
+  .room-images > img {
+    aspect-ratio: 3 / 2.75;
+  }
+}
+
+@media (min-width: 768px) {
+  .room-images > img {
+    aspect-ratio: 3 / 2.5;
+  }
 }
 
 #amenities-container {
@@ -594,16 +626,16 @@ footer {
     margin: 0 auto;
   }
 
-  .section-media > img {
+  #about .section-media > img {
     margin-top: 0px;
     box-shadow: 5px 10px 20px rgba(0,0,0,0.1);
   }
 
-  .container p:first-of-type {
+  #about .container p:first-of-type {
     margin-bottom: var(--space-3);
   }
 
-  .container p {
+  #about .container p {
     line-height: 1.7;
     font-size: 1.05rem
   }
@@ -620,4 +652,12 @@ footer {
     gap: clamp(3rem, 5vw, 5rem);
     align-items: start;
   }
+
+  /* rooms section */
+
+  .room-features {
+
+  }
+
+
 }
