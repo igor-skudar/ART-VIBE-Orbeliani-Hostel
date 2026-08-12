@@ -53,7 +53,7 @@ export const translations = {
       freeWiFi: "Free WiFi",
       sharedKitchen: "Shared kitchen",
       laundry: "Laundry",
-      balcony: "Balcony",
+      balcony: "Terrace",
       airConditioning: "Air conditioning",
       heating: "Heating",
       centralLocation: "Central location",
