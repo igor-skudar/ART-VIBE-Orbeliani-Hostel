@@ -339,8 +339,9 @@ section:not(#hero):nth-of-type(even) {
 }
 
 #amenities-image {
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 5 / 4;
 }
+
 .container > img {
   margin-top: var(--space-3);
   border-radius: var(--radius-md);
