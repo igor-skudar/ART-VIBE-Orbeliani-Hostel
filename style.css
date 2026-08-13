@@ -518,6 +518,7 @@ h3 {
 iframe {
   width: 100%;
   height: auto;
+  max-height: 400px;
   aspect-ratio: 16 / 9;
   border: none;
   border-radius: var(--radius-md);
@@ -598,7 +599,7 @@ iframe {
 
 footer {
   padding: var(--space-4) var(--space-3);
-
+  background: var(--section-bg-color);
   display: flex;
   flex-direction: column;
   align-items: center;
