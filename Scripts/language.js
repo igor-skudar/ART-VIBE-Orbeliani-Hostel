@@ -2,7 +2,7 @@ export const translations = {
   en: {
     text: {
       // hero section
-      langBtn: "RU",
+      langBtn: "EN",
       heroDescription: "Stay in the heart of Tbilisi",
       bookBtn: "Book Your Stay",
 
@@ -102,7 +102,7 @@ export const translations = {
   ru: {
     text: {
       // hero section
-      langBtn: "EN",
+      langBtn: "RU",
       heroDescription: "Остановитесь в сердце Тбилиси",
       bookBtn: "Забронировать",
 
@@ -212,9 +212,9 @@ export function setLang(lang) {
   const flag = document.querySelector("#flag");
 
   if (lang === "en") {
-    flag.src = "Assets/Icons/russian-flag.svg";
-  } else {
     flag.src = "Assets/Icons/uk-flag.svg";
+  } else {
+    flag.src = "Assets/Icons/russian-flag.svg";
   }
 
   
