@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://hostel.art-vibe-orbeliani.workers.dev/sitemap.xml
