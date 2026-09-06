@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@font-face {
+  font-family: 'Inter';
+  src: url('/Assets/Fonts/Inter.woff2') format('woff2');
+  font-weight: 400, 500, 600, 700;
+  font-display: swap;
+  font-style: normal;
+}
 
 :root {
   --primary-color: #FF6A00;
