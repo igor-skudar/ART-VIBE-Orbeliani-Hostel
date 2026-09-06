@@ -1,9 +1,30 @@
 @font-face {
   font-family: 'Inter';
-  src: url('/Assets/Fonts/Inter.woff2') format('woff2');
-  font-weight: 400, 500, 600, 700;
-  font-display: swap;
+  src: url('/Assets/Fonts/Inter-Regular-subset.woff2') format('woff2');
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/Assets/Fonts/Inter-Medium-subset.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/Assets/Fonts/Inter-SemiBold-subset.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Inter';
+  src: url('/Assets/Fonts/Inter-Bold-subset.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 :root {
