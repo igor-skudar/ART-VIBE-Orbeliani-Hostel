@@ -455,6 +455,8 @@ h3 {
   gap: var(--space-2);
   overflow-x: auto;
   scroll-snap-type: x mandatory;
+  scrollbar-width: none;       
+  -ms-overflow-style: none;
 }
 
 .room-images::-webkit-scrollbar {
