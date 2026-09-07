@@ -220,7 +220,12 @@ export function setLang(lang) {
   
   document.querySelectorAll("[data-i18n]").forEach(element => {
     const key = element.dataset.i18n;
-    element.innerHTML= language.text[key];
+    const value = language.text[key];
+    if (value.includes('<')) {
+      element.innerHTML = value;
+    } else {
+      element.textContent = value;
+    }
   });
 
   document.querySelectorAll("[data-i18n-aria-label]").forEach(element => {
